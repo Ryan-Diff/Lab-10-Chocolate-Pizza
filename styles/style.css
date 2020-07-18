@@ -1,11 +1,12 @@
 body {
-    display: block;
-    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 
 .container {
-    border: solid 2px black;
+   
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,10 +14,11 @@ body {
     max-width: 900px;
     margin: 50px;
 
+
 }
 
 main {
-    border: solid 2px black;
+   
     display: block;
     /* max-width: 900px; */
   
@@ -24,7 +26,7 @@ main {
 
 
 header {
-    border: solid 2px black;
+  
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -46,7 +48,7 @@ label {
 }
 
 #social-icons {
-    border: solid 2px black;
+    
     padding: 10px;
 
 }
