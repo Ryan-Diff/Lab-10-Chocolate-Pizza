@@ -78,6 +78,7 @@ h2 {
 
 #note-pad {
     position: relative;
+    margin-bottom: 10px;
     
 }
 
@@ -120,4 +121,17 @@ li {
 footer {
     display: block;
     text-align: center;
+
+}
+
+#footer-logo {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#footer-divider {
+    width: 100%;
+    background-image: linear-gradient( to right, grey, white );
+    margin-bottom: 10px;
+    padding: 5px;
 }
