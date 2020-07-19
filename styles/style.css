@@ -40,11 +40,6 @@ h2 {
     font-weight: bolder;
 }
 
-/* label {
-    display: flex;
-    flex-direction: column;
-} */
-
 #top-logo {
    float: none;
    padding: 5px;   
@@ -120,5 +115,9 @@ li {
     font-size: 15px;
 
 }
-    
 
+    
+footer {
+    display: block;
+    text-align: center;
+}
